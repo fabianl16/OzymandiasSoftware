@@ -7,6 +7,16 @@
    "Data": "Datos",
    "Login": "Iniciar sesion",
    "Logout": "Cerrar sesion",
-   "Reset password": "Cambiar contraseña"
+   "Reset password": "Cambiar contraseña",
+   "Username": "Nombre de usuario",
+   "Email addres": "Correo electronico",
+   "Password": "Contraseña",
+   "Forgot Your Password?": "¿Olvidaste tu contraseña?",
+   "Welcome": "Bienvenido",
+   "Latest records": "Ultimos registros",
+   "Temperature": "Temperatura",
+   "Salinity": "Salinidad",
+   "Practical Salinity Units": "Unidades de sales por unidad",
+   "Centigrade": "Centigrados"
 
 }

@@ -14,10 +14,7 @@ class CreateTanksTable extends Migration
     public function up()
     {
         Schema::create('tanks', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->float('temperature', 5, 2);
-            $table->float('ph', 5, 2);
-            $table->float('salinity', 5, 2);
+            $table->increments('Tank_code')->unsigned();
             $table->timestamps();
         });
     }

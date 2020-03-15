@@ -4,11 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tank extends Model
+class Ammonia extends Model
 {
     //
-    
-    public function parameters()
+    public function parameter()
     {
         return $this->belongsTo('App\Parameter');
     }

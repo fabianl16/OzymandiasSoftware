@@ -25,4 +25,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/', 'TankController@welcome');
+    Route::get('/calculations', 'CalculationController@welcome')->name('calculation');
+    Route::post('/calculations/insert', 'CalculationController@store')->name('insert-ammonia');
+
     });
+ 

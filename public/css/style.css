@@ -664,7 +664,7 @@ h3 {
 .section_title .devider span {
   width: 50px;
   height: 2px;
-  background: #e66543;
+  background: #0400ff;
   display: inline-block;
   margin: 0 3px;
 }
@@ -933,6 +933,9 @@ h3 {
   background: #0254b1;
   text-align: center;
   padding: 33px 0;
+  background-image: linear-gradient(45deg,#328bf0, #024c91);
+
+opacity: 0.89;
 }
 
 @media (max-width: 767px) {
@@ -1412,8 +1415,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_about.scss */
 .about_area {
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 1px;
+  padding-bottom: 18px;
 }
 
 @media (max-width: 767px) {
@@ -1890,7 +1893,7 @@ h3 {
 
 /* line 97, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_facilites.scss */
 .our_facilitics_area .single_feature:hover .icon i {
-  color: #ff2424 !important;
+  color: #01a2ff !important;
 }
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_appetment.scss */
@@ -2358,7 +2361,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/mar.jpg);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
@@ -6291,5 +6294,6 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
