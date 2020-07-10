@@ -29,6 +29,10 @@ z-index: -1;
   background-color: 
   #e3ecf1e1!important;
 }
+.bg-blanco{
+  background-color: 
+  #ffffff!important;
+}
 .card {
   border: 1px solid #0254b1;
 }
@@ -41,6 +45,16 @@ z-index: -1;
   margin-top: 1px;
   padding: 18px;
   max-width: 80rem;
+}
+.card-calculation {
+  margin-top: 1px;
+  padding: 45px;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  max-width: 300rem;
+  position: relative;
 }
 
 .card-header {

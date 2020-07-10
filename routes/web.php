@@ -18,6 +18,8 @@ Route::get('/', function () {
 
 //API REST
 Route::post('data/insert', 'TankController@store');
+Route::post('ammonia/calculate', 'TankController@sendCalculate');
+Route::get('tank/getdata/{id}', 'TankController@jsonLastRegistry');
 
 Auth::routes();
 

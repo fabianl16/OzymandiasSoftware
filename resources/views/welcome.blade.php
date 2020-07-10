@@ -34,6 +34,7 @@
                     </div>
                 </div>
                 @foreach($testMonitor as $testMonitorItem)
+            <h2>Tanque numero: {{$testMonitorItem->code_Tank}}</h2>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single_feature text-center">
@@ -64,8 +65,8 @@
     
                                 </div>
                             </div>
-                            <h4>Fecha: {{$testMonitorItem->created_at->format('m/d/Y')}}</h4>
-                            <h4>Hora: {{$testMonitorItem->created_at->format('H:i:s')}}</h4>
+                            <h4>Fecha: {{$testMonitorItem->created_at}}</h4>
+                            
                         </div>
                     </div>
 
@@ -106,8 +107,8 @@
     
                                 </div>
                             </div>
-                            <h4>Fecha: {{$testMonitorItem->created_at->format('m/d/Y')}}</h4>
-                            <h4>Hora: {{$testMonitorItem->created_at->format('H:i:s')}}</h4>
+                            <h4>Fecha: {{$testMonitorItem->created_at}}</h4>
+                            
 
                         </div>
                     </div>
@@ -125,7 +126,7 @@
                                                 <div class="info_inner">
                                                     <div class="customer_info d-flex">
                                                         <div class="single_info d-flex align-items-baseline">
-                                                            <span class="counter">{{$testMonitorItem->ph}}</span>
+                                                            <span class="counter">{{$testMonitorItem->PH}}</span>
                                                             <h2>UM</h2>
                                                         </div>
                                                     </div>
@@ -139,8 +140,8 @@
     
                                 </div>
                             </div>
-                            <h4>Fecha: {{$testMonitorItem->created_at->format('m/d/Y')}}</h4>
-                            <h4>Hora: {{$testMonitorItem->created_at->format('H:i:s')}}</h4>
+                            <h4>Fecha: {{$testMonitorItem->created_at}}</h4>
+                           
 
                         </div>
                         

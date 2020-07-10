@@ -8,41 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/ajax-form.js') }}"></script>
-    <script src="{{ asset('js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('js/scrollIt.js') }}"></script>
-    <script src="{{ asset('js/jquery.scrollUp.min.js') }}"></script>
-    <script src="{{ asset('js/wow.min.js') }}"></script>
-    <script src="{{ asset('js/nice-select.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.slicknav.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('js/plugins.js') }}"></script>
-    <script src="{{ asset('js/gijgo.min.js') }}"></script>
-    <script src="{{ asset('js/slick.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/function-color.js') }}"></script>
-
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-     <!--contact js-->
-     <script src="{{ asset('js/contact.js')}}"></script>
-     <script src="{{ asset('js/jquery.ajaxchimp.min.js')}}"></script>
-     <script src="{{ asset('js/jquery.form.js')}}"></script>
-     <script src="{{ asset('js/jquery.validate.min.js')}}"></script>
-     <script src="{{ asset('js/mail-script.js')}}"></script>
-     <script src="{{ asset('js/main.js')}}"></script>
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -65,7 +31,8 @@
      <link rel="stylesheet" href="{{ asset('css/login.css')}}">
      <link rel="stylesheet" href="{{ asset('css/style.css')}}">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
+
 
 </head>
 <body>
@@ -106,13 +73,13 @@
                                                     <li><a href="elements.html">@lang('Data')</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">blog</a>
+                                        <li><a href="#"></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
+                                                <li><a href="blog.html"></a></li>
+                                                <li><a href="single-blog.html"></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.html"></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -154,7 +121,7 @@
                                 @endguest
 
                                 <div class="number">
-                                    <p>Call us <a href="#">+001 325 589</a></p>
+                                    <p><a href="#"></a></p>
                                 </div>
                             </div>
                         </div>
@@ -275,5 +242,41 @@
         </div>
     </footer>
     <!-- footer_end  -->
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/ajax-form.js') }}"></script>
+    <script src="{{ asset('js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/scrollIt.js') }}"></script>
+    <script src="{{ asset('js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('js/wow.min.js') }}"></script>
+    <script src="{{ asset('js/nice-select.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/gijgo.min.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/function-color.js') }}"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+     <!--contact js-->
+     <script src="{{ asset('js/contact.js')}}"></script>
+     <script src="{{ asset('js/jquery.ajaxchimp.min.js')}}"></script>
+     <script src="{{ asset('js/jquery.form.js')}}"></script>
+     <script src="{{ asset('js/jquery.validate.min.js')}}"></script>
+     <script src="{{ asset('js/mail-script.js')}}"></script>
+     <script src="{{ asset('js/main.js')}}"></script>
+    @stack('scripts')
 </body>
 </html>
